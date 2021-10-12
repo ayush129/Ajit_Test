@@ -80,7 +80,7 @@ unsigned char * main()
 	__ajit_write_serial_control_register__ ( TX_ENABLE | RX_ENABLE);
 
 
-	for(length=1000;length<=1000;length=length+600)
+	for(length=200;length<=3200;length=length+600)
 	{
 
 		//xxxxxxxxxx sscal xxxxxxxxxxxxxxxxxxxxxx
@@ -146,8 +146,5 @@ unsigned char * main()
 	temp16=temp16+4;
 	temp32=temp32+4;
 
-	
 	return tempc;
-
-
 }
