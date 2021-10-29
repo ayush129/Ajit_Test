@@ -251,7 +251,7 @@ Disassembly of section .text:
      37c:	01 00 00 00 	nop 
      380:	d0 27 bf ec 	st  %o0, [ %fp + -20 ]
      384:	c0 27 bf f8 	clr  [ %fp + -8 ]
-     388:	82 10 20 05 	mov  5, %g1
+     388:	82 10 20 30 	mov  0x30, %g1
      38c:	c2 27 bf fc 	st  %g1, [ %fp + -4 ]
      390:	10 80 00 0e 	b  3c8 <main+0x70>
      394:	01 00 00 00 	nop 
@@ -261,14 +261,14 @@ Disassembly of section .text:
      3a4:	d4 07 bf f0 	ld  [ %fp + -16 ], %o2
      3a8:	d6 07 bf ec 	ld  [ %fp + -20 ], %o3
      3ac:	98 10 00 01 	mov  %g1, %o4
-     3b0:	7f ff ff 2d 	call  64 <conv_vect>
+     3b0:	7f ff ff 7f 	call  1ac <conv>
      3b4:	01 00 00 00 	nop 
      3b8:	d0 27 bf f8 	st  %o0, [ %fp + -8 ]
      3bc:	c2 07 bf fc 	ld  [ %fp + -4 ], %g1
-     3c0:	82 00 60 05 	add  %g1, 5, %g1
+     3c0:	82 00 60 0a 	add  %g1, 0xa, %g1
      3c4:	c2 27 bf fc 	st  %g1, [ %fp + -4 ]
      3c8:	c2 07 bf fc 	ld  [ %fp + -4 ], %g1
-     3cc:	80 a0 60 0f 	cmp  %g1, 0xf
+     3cc:	80 a0 60 30 	cmp  %g1, 0x30
      3d0:	04 bf ff f2 	ble  398 <main+0x40>
      3d4:	01 00 00 00 	nop 
      3d8:	c2 07 bf f8 	ld  [ %fp + -8 ], %g1
